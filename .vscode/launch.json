@@ -5,7 +5,7 @@
             "name": "ESP8266",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/build/debug/app.out",
+            "program": "${workspaceRoot}/.pioenvs/example/firmware.elf",
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
@@ -16,7 +16,7 @@
                 { "text": "set remote hardware-breakpoint-limit 1" },
                 { "text": "set remote hardware-watchpoint-limit 1" },
                 { "text": "set debug xtensa 4" },
-                { "text": "set serial baud 115200" },
+ //               { "text": "set serial baud 115200" },
                 { "text": "target remote /dev/ttyUSB0" }
             ],
             "linux": {
